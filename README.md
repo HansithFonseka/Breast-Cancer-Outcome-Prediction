@@ -46,12 +46,12 @@ Predicts **Survival Months** using Decision Tree Regressors, with a focus on **i
 
 ```
 Breast-Cancer-Outcome-Prediction/
-├── notebooks/
-│   ├── Final_Python_Notebook_1.ipynb    # Data preprocessing 🧼
-│   ├── Final_Python_Notebook_2.ipynb    # Classification with SMOTE 📊
-│   ├── Final_Python_Notebook_3.ipynb    # Ensemble & regression 📈
-├── requirements.txt                     # Python dependencies 📋
-├── README.md                            # You're here! 👋
+  ├── Final_Python_Notebook_1.ipynb  # Data preprocessing
+  ├── Final_Python_Notebook_2.ipynb  # Classification with SMOTE
+  ├── Final_Python_Notebook_3.ipynb  # Ensemble and regression
+  ├── report.docx
+  ├── README.md                         # Project overview
+  ├── requirements.txt                  # Python dependencies
 ```
 
 > ⚠️ **Note**: The dataset is not included due to academic/privacy restrictions.  
@@ -109,7 +109,7 @@ jupyter notebook
 - **Best Model:** Decision Tree Regressor (*max_depth=4*, Notebook 3)  
   - MAE: **19.05**  
   - R² Score: **-0.10**
-- **Prediction:** **80 months** survival for patient **B002565**  
+- **Prediction:** **80 months** survival for a new patient 
 - **Insight:** Tree’s limited depth prevented overfitting but caused underfitting (R² < 0).
 
 ---
